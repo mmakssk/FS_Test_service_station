@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 700px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+#floatingBreak {
+    height: 160px;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.form-floating {
+    margin-bottom: 15px;
+}
+
+.check_status {
+    margin-bottom: 10px;
+}
+
+#error {
+    max-width: 300px;
+    color: #f32424;
+    background-color: #a8a7a7;
+    top: 0;
+    position: absolute;
+    border: 2px solid grey;
+    border-top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: -10px;
+}
+
+#er {
+    display: flex;
+    justify-content: center;
+}
